@@ -8,6 +8,7 @@ nums.times do
   begin
     rnd = rand(min..max)
   end while uin.include?(rnd)
-  uin.push(rnd)
+  #uin.push(rnd)
+  uin << rnd
   puts rnd
 end
